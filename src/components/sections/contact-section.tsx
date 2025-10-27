@@ -29,6 +29,7 @@ export function ContactSection() {
     },
   });
 
+  // This function is not used for submission anymore, but kept for potential future use
   async function onSubmit(values: z.infer<typeof formSchema>) {
     setIsSubmitting(true);
     // Simulate API call
@@ -66,7 +67,12 @@ export function ContactSection() {
 
         <div className="max-w-2xl mx-auto glass-card p-8">
           <Form {...form}>
-            <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-8">
+            <form 
+              action="mailto:graceantony202@gmail.com" 
+              method="post" 
+              encType="text/plain"
+              className="space-y-8"
+            >
               <FormField
                 control={form.control}
                 name="name"
