@@ -1,5 +1,5 @@
 import { EmpressLogo } from '@/components/empress-logo';
-import { Twitter, Github, Linkedin } from 'lucide-react';
+import { Twitter, Instagram, Linkedin } from 'lucide-react';
 
 export function Footer() {
   return (
@@ -12,13 +12,13 @@ export function Footer() {
           </p>
         </div>
         <div className="flex items-center gap-4">
-          <a href="#" aria-label="Twitter" className="text-muted-foreground hover:text-primary transition-colors">
+          <a href="https://x.com/AntonyGrace20" target="_blank" rel="noopener noreferrer" aria-label="Twitter" className="text-muted-foreground hover:text-primary transition-colors hover:glow-icon">
             <Twitter className="h-5 w-5" />
           </a>
-          <a href="#" aria-label="GitHub" className="text-muted-foreground hover:text-primary transition-colors">
-            <Github className="h-5 w-5" />
+          <a href="https://www.instagram.com/empressfoster/" target="_blank" rel="noopener noreferrer" aria-label="Instagram" className="text-muted-foreground hover:text-primary transition-colors hover:glow-icon">
+            <Instagram className="h-5 w-5" />
           </a>
-          <a href="#" aria-label="LinkedIn" className="text-muted-foreground hover:text-primary transition-colors">
+          <a href="https://www.linkedin.com/in/isitua-grace-047110252/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" className="text-muted-foreground hover:text-primary transition-colors hover:glow-icon">
             <Linkedin className="h-5 w-5" />
           </a>
         </div>
