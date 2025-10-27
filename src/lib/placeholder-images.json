@@ -34,7 +34,7 @@
       "id": "project-4",
       "title": "Branding & Creative Design",
       "description": "Result: A futuristic, consistent brand image that reflects innovation and confidence.",
-      "imageUrl": "https://images.unsplash.com/photo-1665686310429-ee43624978fa?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxvbmxpbmUlMjBzaG9wcGluZ3xlbnwwfHx8fDE3NjE0NTk1MTF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1665686310429-ee43624978fa?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxvbmxpbmUlMjBzaG9wcGluZ3xlbnwwfHx8fDE3NjE0NTk1MTF8MA&ixlibrb-4.1.0&q=80&w=1080",
       "imageHint": "brand design"
     },
     {
@@ -51,6 +51,13 @@
       "description": "An abstract image representing futuristic technology and innovation.",
       "imageUrl": "https://images.unsplash.com/photo-1518770660439-4636190af475?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNDE5ODJ8MHwxfHNlYXJjaHwxfHxmdXR1cmlzdGljJTIwaWxsdXN0cmF0aW9ufGVufDB8fHx8MTc2MTU3ODkyMXww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "futuristic illustration"
+    },
+    {
+      "id": "background-image",
+      "title": "Futuristic Background",
+      "description": "A dark, abstract image with blue and purple light trails, representing futuristic technology.",
+      "imageUrl": "https://images.unsplash.com/photo-1531297484001-80022131f5a1?q=80&w=2020&auto=format&fit=crop",
+      "imageHint": "futuristic background"
     }
   ]
 }
