@@ -1,4 +1,4 @@
-import { Gem } from 'lucide-react';
+import { EmpressLogo } from '@/components/empress-logo';
 
 export function HeroSection() {
   return (
@@ -7,7 +7,7 @@ export function HeroSection() {
         <div className="absolute inset-0 bg-gradient-to-b from-transparent to-background"></div>
         <div className="relative z-10 flex flex-col items-center space-y-6 px-4">
             <div className="animate-text-focus-in" style={{ animationDelay: '200ms' }}>
-                <Gem className="h-20 w-20 text-primary glow-icon" />
+                <EmpressLogo className="h-20 w-20 text-primary glow-icon" />
             </div>
             <h1 className="text-5xl md:text-7xl font-bold font-headline tracking-tighter animate-text-focus-in" style={{ animationDelay: '500ms' }}>
                 EmpressTech
