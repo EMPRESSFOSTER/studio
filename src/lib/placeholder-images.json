@@ -5,7 +5,8 @@
       "title": "Web Design & Development",
       "description": "Result: A sleek, modern website that converts visitors into clients and builds digital credibility.",
       "imageUrl": "https://images.unsplash.com/photo-1542744173-05336fcc7ad4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxkYXRhJTIwYW5hbHl0aWNzfGVufDB8fHx8MTc2MTUyNTMwM3ww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "modern website"
+      "imageHint": "modern website",
+      "url": "https://debayview.com/"
     },
     {
       "id": "project-2",
