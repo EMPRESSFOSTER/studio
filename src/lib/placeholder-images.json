@@ -2,45 +2,38 @@
   "placeholderImages": [
     {
       "id": "project-1",
-      "title": "AI-Powered Analytics",
-      "description": "A cutting-edge platform for real-time data analysis and prediction, leveraging machine learning to provide actionable insights.",
+      "title": "Web Design & Development",
+      "description": "Result: A sleek, modern website that converts visitors into clients and builds digital credibility.",
       "imageUrl": "https://images.unsplash.com/photo-1542744173-05336fcc7ad4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxkYXRhJTIwYW5hbHl0aWNzfGVufDB8fHx8MTc2MTUyNTMwM3ww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "data analytics"
+      "imageHint": "modern website"
     },
     {
       "id": "project-2",
-      "title": "Robotic Process Automation",
-      "description": "An enterprise solution for automating repetitive tasks, improving efficiency and reducing operational costs.",
+      "title": "Mobile App Development",
+      "description": "Result: A user-friendly, AI-powered app that brings your brand closer to your audience.",
       "imageUrl": "https://images.unsplash.com/photo-1703668929798-67cab2e41f6b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxyb2JvdCUyMGF1dG9tYXRpb258ZW58MHx8fHwxNzYxNDczODU3fDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "robot automation"
+      "imageHint": "mobile app"
     },
     {
       "id": "project-3",
-      "title": "Cloud Migration Service",
-      "description": "A comprehensive service for migrating legacy systems to modern, scalable cloud infrastructure with minimal downtime.",
+      "title": "Digital Transformation Consulting",
+      "description": "Result: Sustainable growth powered by intelligent technology and future-focused strategies.",
       "imageUrl": "https://images.unsplash.com/photo-1506399558188-acca6f8cbf41?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxjbG91ZCUyMHNlcnZlcnN8ZW58MHx8fHwxNzYxNDkyNzQ2fDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "cloud servers"
+      "imageHint": "digital strategy"
     },
     {
       "id": "project-4",
-      "title": "E-commerce Platform",
-      "description": "A bespoke web development project for a major online retailer, focusing on user experience and performance.",
+      "title": "Branding & Creative Design",
+      "description": "Result: A futuristic, consistent brand image that reflects innovation and confidence.",
       "imageUrl": "https://images.unsplash.com/photo-1665686310429-ee43624978fa?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxvbmxpbmUlMjBzaG9wcGluZ3xlbnwwfHx8fDE3NjE0NTk1MTF8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "online shopping"
+      "imageHint": "brand design"
     },
     {
       "id": "project-5",
-      "title": "Data Visualization Dashboard",
-      "description": "An interactive dashboard that transforms complex datasets into beautiful and intuitive visualizations.",
+      "title": "Tech Support & Maintenance",
+      "description": "Result: Uninterrupted performance with expert hands maintaining your systems.",
       "imageUrl": "https://images.unsplash.com/photo-1543286386-2e659306cd6c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxjaGFydHMlMjBncmFwaHN8ZW58MHx8fHwxNzYxNTI5NzIwfDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "charts graphs"
-    },
-    {
-      "id": "project-6",
-      "title": "Smart Assistant API",
-      "description": "A powerful AI assistant API that can be integrated into any application to provide intelligent conversational capabilities.",
-      "imageUrl": "https://images.unsplash.com/photo-1636690513351-0af1763f6237?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxhYnN0cmFjdCUyMGFpfGVufDB8fHx8MTc2MTU0Mjc1M3ww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "abstract ai"
+      "imageHint": "tech support"
     }
   ]
 }

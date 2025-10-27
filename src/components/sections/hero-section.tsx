@@ -13,7 +13,7 @@ export function HeroSection() {
                 EmpressTech
             </h1>
             <p className="max-w-2xl text-lg md:text-xl text-foreground/80 animate-text-focus-in" style={{ animationDelay: '800ms' }}>
-                Empowering the Future with Technology.
+                Empowering the Future with Technology — Innovative. Futuristic. Limitless.
             </p>
         </div>
     </section>

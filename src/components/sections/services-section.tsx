@@ -1,33 +1,33 @@
 'use client';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
-import { Cpu, Bot, Cloud, Code2, BarChart3, ArrowRight } from 'lucide-react';
+import { Laptop, Smartphone, Globe, Palette, LifeBuoy, ArrowRight } from 'lucide-react';
 import React from 'react';
 
 const services = [
   {
-    icon: Cpu,
-    title: 'AI Solutions',
-    description: 'Harness the power of AI to drive innovation and efficiency.',
+    icon: Laptop,
+    title: 'Web Design & Development',
+    description: 'Crafting powerful, high-performing websites that define your digital presence.',
   },
   {
-    icon: Bot,
-    title: 'Automation',
-    description: 'Streamline your operations with intelligent automation.',
+    icon: Smartphone,
+    title: 'Mobile App Development',
+    description: 'Innovative mobile experiences that connect, engage, and empower users.',
   },
   {
-    icon: Cloud,
-    title: 'Cloud Systems',
-    description: 'Leverage scalable and secure cloud infrastructure.',
+    icon: Globe,
+    title: 'Digital Transformation Consulting',
+    description: 'Transform your operations with smart digital strategy and technology adoption.',
   },
   {
-    icon: Code2,
-    title: 'Web Development',
-    description: 'Build powerful, modern web applications and experiences.',
+    icon: Palette,
+    title: 'Branding & Creative Design',
+    description: 'Build a futuristic identity that resonates with your audience.',
   },
   {
-    icon: BarChart3,
-    title: 'Data Analytics',
-    description: 'Turn your data into actionable, strategic insights.',
+    icon: LifeBuoy,
+    title: 'Tech Support & Maintenance',
+    description: 'Continuous support to keep your digital systems running at full power.',
   },
 ];
 
