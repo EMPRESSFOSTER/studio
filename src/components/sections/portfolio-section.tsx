@@ -9,8 +9,12 @@ import { ArrowRight } from 'lucide-react';
 export function PortfolioSection() {
   const [selectedProject, setSelectedProject] = useState<ImagePlaceholder | null>(null);
 
-  const openModal = (project: ImagePlaceholder) => {
-    setSelectedProject(project);
+  const handleProjectClick = (project: ImagePlaceholder) => {
+    if (project.url) {
+      window.open(project.url, '_blank');
+    } else {
+      setSelectedProject(project);
+    }
   };
 
   const closeModal = () => {
@@ -31,7 +35,7 @@ export function PortfolioSection() {
             <div
               key={project.id}
               className="glass-card group relative overflow-hidden cursor-pointer"
-              onClick={() => openModal(project)}
+              onClick={() => handleProjectClick(project)}
               style={{ animation: `slide-in-bottom 0.5s ease-out ${index * 100}ms forwards`, opacity: 0 }}
             >
               <Image
@@ -53,7 +57,7 @@ export function PortfolioSection() {
           ))}
         </div>
       </div>
-      <Dialog open={!!selectedProject} onOpenChange={closeModal}>
+      <Dialog open={!!selectedProject && !selectedProject.url} onOpenChange={closeModal}>
         <DialogContent className="sm:max-w-[600px] glass-card">
           {selectedProject && (
             <>
