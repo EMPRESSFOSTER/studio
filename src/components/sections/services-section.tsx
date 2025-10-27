@@ -50,7 +50,8 @@ export function ServicesSection() {
               className={`glass-card group relative overflow-hidden transition-all duration-300 ease-in-out hover:!scale-105 hover:shadow-2xl hover:shadow-primary/20 ${
                 activeCard === service.title ? 'scale-[1.02]' : 'scale-100'
               }`}
-              onClick={() => setActiveCard(activeCard === service.title ? null : service.title)}
+              onMouseEnter={() => setActiveCard(service.title)}
+              onMouseLeave={() => setActiveCard(null)}
               style={{ animation: `slide-in-bottom 0.5s ease-out ${index * 100}ms forwards`, opacity: 0 }}
             >
               <CardHeader className="text-center items-center">

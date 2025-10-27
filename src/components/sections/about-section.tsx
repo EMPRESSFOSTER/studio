@@ -3,6 +3,7 @@ import React from 'react';
 import Image from 'next/image';
 import { motion } from 'framer-motion';
 import { Lightbulb, Cpu, Globe, Rocket } from 'lucide-react';
+import { PlaceHolderImages } from '@/lib/placeholder-images';
 
 const highlights = [
   { icon: Lightbulb, text: 'Innovative Solutions' },
@@ -10,6 +11,8 @@ const highlights = [
   { icon: Globe, text: 'Global Vision' },
   { icon: Rocket, text: 'Scalable Growth Mindset' },
 ];
+
+const aboutImage = PlaceHolderImages.find(p => p.id === 'about-us');
 
 export function AboutSection() {
   const containerVariants = {
@@ -45,14 +48,16 @@ export function AboutSection() {
             transition={{ duration: 0.8 }}
           >
             <div className="absolute inset-0 bg-primary/10 rounded-full blur-3xl -z-10"></div>
-            <Image
-              src="https://picsum.photos/seed/about-us/600/600"
-              alt="Futuristic Illustration"
-              width={600}
-              height={600}
-              data-ai-hint="futuristic illustration"
-              className="rounded-lg object-cover w-full h-full shadow-2xl shadow-primary/20"
-            />
+            {aboutImage && (
+              <Image
+                src={aboutImage.imageUrl}
+                alt={aboutImage.title}
+                width={600}
+                height={600}
+                data-ai-hint={aboutImage.imageHint}
+                className="rounded-lg object-cover w-full h-full shadow-2xl shadow-primary/20"
+              />
+            )}
           </motion.div>
           <motion.div
             variants={containerVariants}
