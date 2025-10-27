@@ -29,7 +29,7 @@ export async function aiChatAssistant(input: AIChatAssistantInput): Promise<AICh
 const prompt = ai.definePrompt({
   name: 'aiChatAssistantPrompt',
   input: {schema: AIChatAssistantInputSchema},
-  output: {schema: AIChatAssistantOutputSchema},
+  output: {schema: AIChatAssistantOutputSchema, format: 'json'},
   prompt: `You are a helpful and futuristic AI chat assistant for EmpressTech. Your goal is to answer user questions about the company, its services, and its mission.
 
   Your identity: EmpressTech is a next-generation technology company that empowers businesses through innovation, automation, and intelligent design.
