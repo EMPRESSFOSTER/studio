@@ -74,6 +74,9 @@ export function AboutSection() {
             </motion.p>
             <motion.div variants={itemVariants} className="glass-card p-6 space-y-4">
               <p>
+                Hi, I’m Grace (Empresstech), a passionate graphic and web designer with a keen eye for detail and a love for turning ideas into clean, impactful visuals. I specialize in crafting engaging brand identities and websites that don’t just look great—but work seamlessly. Helping businesses stand out with stunning designs and seamless web experiences.
+              </p>
+              <p>
                 EMPRESSTECH is a forward-thinking digital company focused on delivering intelligent solutions that redefine how people interact with technology. We combine creativity, <span className="gradient-text">AI innovation</span>, and technical expertise to help businesses grow in a connected world.
               </p>
               <p>
