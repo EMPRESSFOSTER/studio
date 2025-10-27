@@ -11,7 +11,11 @@ export function PortfolioSection() {
 
   const handleProjectClick = (project: ImagePlaceholder) => {
     if (project.url) {
-      window.open(project.url, '_blank');
+      if (project.url.startsWith('http')) {
+        window.open(project.url, '_blank');
+      } else {
+        window.location.href = project.url;
+      }
     } else {
       setSelectedProject(project);
     }
