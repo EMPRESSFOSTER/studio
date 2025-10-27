@@ -7,7 +7,7 @@ import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
 import { Form, FormControl, FormField, FormItem, FormLabel, FormMessage } from '@/components/ui/form';
 import { useToast } from '@/hooks/use-toast';
-import { Send } from 'lucide-react';
+import { Send, Mail, Phone } from 'lucide-react';
 import React from 'react';
 
 const formSchema = z.object({
@@ -52,6 +52,18 @@ export function ContactSection() {
             Have a project in mind or just want to say hello? We&apos;d love to hear from you.
           </p>
         </div>
+
+        <div className="flex flex-col md:flex-row justify-center items-center gap-8 mb-12">
+          <a href="mailto:graceantony202@gmail.com" className="flex items-center gap-3 text-lg text-foreground/80 hover:text-primary transition-colors group">
+            <Mail className="w-6 h-6 text-primary group-hover:glow-icon" />
+            <span>graceantony202@gmail.com</span>
+          </a>
+          <a href="tel:+2349015028666" className="flex items-center gap-3 text-lg text-foreground/80 hover:text-primary transition-colors group">
+            <Phone className="w-6 h-6 text-primary group-hover:glow-icon" />
+            <span>+234 9015028666</span>
+          </a>
+        </div>
+
         <div className="max-w-2xl mx-auto glass-card p-8">
           <Form {...form}>
             <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-8">
