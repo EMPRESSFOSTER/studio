@@ -4,6 +4,7 @@ import { AboutSection } from '@/components/sections/about-section';
 import { ServicesSection } from '@/components/sections/services-section';
 import { TechnologiesSection } from '@/components/sections/technologies-section';
 import { PortfolioSection } from '@/components/sections/portfolio-section';
+import { PricingSection } from '@/components/sections/pricing-section';
 import { CtaSection } from '@/components/sections/cta-section';
 import { ContactSection } from '@/components/sections/contact-section';
 import { Footer } from '@/components/footer';
@@ -19,6 +20,7 @@ export default function Home() {
         <ServicesSection />
         <TechnologiesSection />
         <PortfolioSection />
+        <PricingSection />
         <CtaSection />
         <ContactSection />
       </main>
