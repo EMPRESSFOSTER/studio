@@ -10,8 +10,8 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        body: ['Inter', 'sans-serif'],
-        headline: ['Inter', 'sans-serif'],
+        body: ['"Exo 2"', 'sans-serif'],
+        headline: ['Orbitron', 'sans-serif'],
         code: ['monospace'],
       },
       colors: {
@@ -88,10 +88,48 @@ export default {
             height: '0',
           },
         },
+        'glow': {
+          '0%, 100%': { opacity: '0.7', boxShadow: '0 0 10px hsl(var(--primary)), 0 0 20px hsl(var(--primary))' },
+          '50%': { opacity: '1', boxShadow: '0 0 20px hsl(var(--primary)), 0 0 40px hsl(var(--primary))' },
+        },
+        'pulse-glow': {
+          '0%, 100%': {
+            transform: 'scale(1)',
+            boxShadow: '0 0 5px hsl(var(--primary))',
+          },
+          '50%': {
+            transform: 'scale(1.05)',
+            boxShadow: '0 0 15px hsl(var(--primary))',
+          },
+        },
+        'text-focus-in': {
+          '0%': {
+            filter: 'blur(12px)',
+            opacity: '0',
+          },
+          '100%': {
+            filter: 'blur(0px)',
+            opacity: '1',
+          },
+        },
+        'slide-in-bottom': {
+          '0%': {
+            transform: 'translateY(100px)',
+            opacity: '0',
+          },
+          '100%': {
+            transform: 'translateY(0)',
+            opacity: '1',
+          },
+        },
       },
       animation: {
         'accordion-down': 'accordion-down 0.2s ease-out',
         'accordion-up': 'accordion-up 0.2s ease-out',
+        'glow': 'glow 2s ease-in-out infinite',
+        'pulse-glow': 'pulse-glow 3s ease-in-out infinite',
+        'text-focus-in': 'text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both',
+        'slide-in-bottom': 'slide-in-bottom 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both',
       },
     },
   },
