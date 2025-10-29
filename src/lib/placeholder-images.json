@@ -12,7 +12,7 @@
       "id": "project-2",
       "title": "Mobile App Development",
       "description": "Result: A user-friendly, AI-powered app that brings your brand closer to your audience.",
-      "imageUrl": "https://images.unsplash.com/photo-1703668929798-67cab2e41f6b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxyb2JvdCUyMGF1dG9tYXRpb258ZW58MHx8fHwxNzYxNDczODU3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1703668929798-67cab2e41f6b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxyb2JvdCUyMGF1dG9tYXRpb258ZW58MHx8fHwxNzYxNDczODU3fDA&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "mobile app"
     },
     {
@@ -28,7 +28,7 @@
       "description": "Create a beautiful online store or business site in just minutes — no coding, no hosting fees, and no delay.",
       "imageUrl": "https://images.unsplash.com/photo-1522204523234-8729aa6e3d5f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNDE5ODJ8MHwxfHNlYXJjaHwxfHxvbmxpbmUlMjBzaG9wcGluZ3xlbnwwfHx8fDE3NjE0NTk1MDF8MA&ixlib-rb-4.0.3&q=80&w=1080",
       "imageHint": "online shopping",
-      "url": "https://links.shoppadi.com/"
+      "url": "https://emcoder.netlify.app/"
     },
     {
       "id": "project-4",
@@ -41,7 +41,7 @@
       "id": "project-5",
       "title": "Tech Support & Maintenance",
       "description": "Result: Uninterrupted performance with expert hands maintaining your systems.",
-      "imageUrl": "https://images.unsplash.com/photo-1543286386-2e659306cd6c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxjaGFydHMlMjBncmFwaHN8ZW58MHx8fHwxNzYxNTI5NzIwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1543286386-2e659306cd6c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxjaGFydHMlMjBncmFwaHN8ZW58MHx8fHwxNzYxNTI5NzIwfDA&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "tech support",
       "url": "#contact"
     },
@@ -56,7 +56,7 @@
       "id": "about-us",
       "title": "About EmpressTech",
       "description": "A visual representation of our innovative and futuristic approach.",
-      "imageUrl": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHx0ZWFtJTIwY29sbGFib3JhdGlvbnxlbnwwfHx8fDE3NjE3MzY2NDR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHx0ZWFtJTIwY29sbGFib3JhdGlvbnxlbnwwfHx8fDE3NjE3MzY2NDR8MA&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "team collaboration"
     }
   ]
