@@ -27,7 +27,8 @@
       "title": "Shoppadi E-commerce",
       "description": "Create a beautiful online store or business site in just minutes — no coding, no hosting fees, and no delay.",
       "imageUrl": "https://images.unsplash.com/photo-1522204523234-8729aa6e3d5f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNDE5ODJ8MHwxfHNlYXJjaHwxfHxvbmxpbmUlMjBzaG9wcGluZ3xlbnwwfHx8fDE3NjE0NTk1MDF8MA&ixlib-rb-4.0.3&q=80&w=1080",
-      "imageHint": "online shopping"
+      "imageHint": "online shopping",
+      "url": "https://links.shoppadi.com/"
     },
     {
       "id": "project-4",
