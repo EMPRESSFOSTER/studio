@@ -5,7 +5,7 @@ export function HeroSection() {
     <section className="relative h-[calc(100vh-3.5rem)] w-full flex items-center justify-center text-center overflow-hidden">
         <div className="absolute inset-0 bg-grid-pattern opacity-10"></div>
         <div className="absolute inset-0 bg-gradient-to-b from-transparent to-background via-background/50"></div>
-        <div className="relative z-10 flex flex-col items-center space-y-6 px-4">
+        <div className="flex flex-col items-center space-y-6 px-4">
             <div className="animate-text-focus-in" style={{ animationDelay: '200ms' }}>
                 <EmpressLogo className="h-20 w-20 text-primary glow-icon" />
             </div>

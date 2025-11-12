@@ -12,7 +12,7 @@ import { ChatAssistant } from '@/components/chat-assistant';
 
 export default function Home() {
   return (
-    <div className="flex flex-col min-h-screen bg-background text-foreground overflow-x-hidden">
+    <div className="relative flex flex-col min-h-screen bg-background text-foreground overflow-x-hidden">
       <Header />
       <main className="flex-grow">
         <HeroSection />
