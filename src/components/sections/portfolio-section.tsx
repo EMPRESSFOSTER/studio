@@ -5,6 +5,7 @@ import { PlaceHolderImages } from '@/lib/placeholder-images';
 import type { ImagePlaceholder } from '@/lib/placeholder-images';
 import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogDescription } from '@/components/ui/dialog';
 import { ArrowRight } from 'lucide-react';
+import { motion } from 'framer-motion';
 
 export function PortfolioSection() {
   const [selectedProject, setSelectedProject] = useState<ImagePlaceholder | null>(null);
@@ -24,6 +25,11 @@ export function PortfolioSection() {
   const closeModal = () => {
     setSelectedProject(null);
   };
+  
+  const cardVariants = {
+    hidden: { opacity: 0, y: 50 },
+    visible: { opacity: 1, y: 0 },
+  };
 
   return (
     <section id="portfolio" className="py-20 md:py-32 bg-background/50">
@@ -36,11 +42,15 @@ export function PortfolioSection() {
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {PlaceHolderImages.map((project, index) => (
-            <div
+            <motion.div
               key={project.id}
+              variants={cardVariants}
+              initial="hidden"
+              whileInView="visible"
+              viewport={{ once: true, amount: 0.2 }}
+              transition={{ delay: index * 0.1, duration: 0.5 }}
               className="glass-card group relative overflow-hidden cursor-pointer"
               onClick={() => handleProjectClick(project)}
-              style={{ animation: `slide-in-bottom 0.5s ease-out ${index * 100}ms forwards`, opacity: 0 }}
             >
               <Image
                 src={project.imageUrl}
@@ -57,7 +67,7 @@ export function PortfolioSection() {
                   Learn more <ArrowRight className="inline h-4 w-4 ml-1" />
                 </p>
               </div>
-            </div>
+            </motion.div>
           ))}
         </div>
       </div>
