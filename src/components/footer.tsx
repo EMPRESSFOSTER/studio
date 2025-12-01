@@ -15,7 +15,7 @@ export function Footer() {
           <a href="https://x.com/AntonyGrace20" target="_blank" rel="noopener noreferrer" aria-label="Twitter" className="text-muted-foreground hover:text-primary transition-colors hover:glow-icon">
             <Twitter className="h-5 w-5" />
           </a>
-          <a href="https://www.instagram.com/empressfoster/" target="_blank" rel="noopener noreferrer" aria-label="Instagram" className="text-muted-foreground hover:text-primary transition-colors hover:glow-icon">
+          <a href="https://www.instagram.com/empresstechng/" target="_blank" rel="noopener noreferrer" aria-label="Instagram" className="text-muted-foreground hover:text-primary transition-colors hover:glow-icon">
             <Instagram className="h-5 w-5" />
           </a>
           <a href="https://www.linkedin.com/in/isitua-grace-047110252/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" className="text-muted-foreground hover:text-primary transition-colors hover:glow-icon">
