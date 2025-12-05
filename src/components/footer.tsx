@@ -3,7 +3,7 @@ import { Twitter, Instagram, Linkedin } from 'lucide-react';
 
 export function Footer() {
   return (
-    <footer className="border-t border-border/40 py-6 md:py-8">
+    <footer className="border-t border-border/40 py-6 md:py-8 pb-24 md:pb-8">
       <div className="container flex flex-col md:flex-row items-center justify-between gap-4">
         <div className="flex items-center gap-2">
           <EmpressLogo className="h-5 w-5 text-primary glow-icon" />
