@@ -55,9 +55,9 @@ export function ContactSection() {
         </div>
 
         <div className="flex flex-col md:flex-row justify-center items-center gap-8 mb-12">
-          <a href="mailto:graceantony202@gmail.com" className="flex items-center gap-3 text-lg text-foreground/80 hover:text-primary transition-colors group">
+          <a href="mailto:empresstech9@gmail.com" className="flex items-center gap-3 text-lg text-foreground/80 hover:text-primary transition-colors group">
             <Mail className="w-6 h-6 text-primary group-hover:glow-icon" />
-            <span>graceantony202@gmail.com</span>
+            <span>empresstech9@gmail.com</span>
           </a>
           <a href="tel:+2349015028666" className="flex items-center gap-3 text-lg text-foreground/80 hover:text-primary transition-colors group">
             <Phone className="w-6 h-6 text-primary group-hover:glow-icon" />
@@ -68,7 +68,7 @@ export function ContactSection() {
         <div className="max-w-2xl mx-auto glass-card p-8">
           <Form {...form}>
             <form 
-              action="mailto:graceantony202@gmail.com" 
+              action="mailto:empresstech9@gmail.com" 
               method="post" 
               encType="text/plain"
               className="space-y-8"
